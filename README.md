@@ -101,3 +101,53 @@ cd Medical-Diagnosis-Streamlit-App
 -  pip install -r requirements.txt
 -  streamlit run app.py
   
+
+## 🧪 Testing
+
+The application was tested manually using multiple realistic input scenarios to verify the correctness of predictions.
+
+For each disease, test cases were selected to represent:
+- Healthy individuals  
+- Patients with the disease  
+- Borderline cases  
+
+This helped ensure that the model predictions behave logically and consistently across different input ranges.
+
+### Sample Test Cases
+
+**Diabetes Prediction**
+- Low glucose, normal BMI → No Diabetes
+- High glucose, high BMI, higher age → Diabetes detected
+
+**Heart Disease Prediction**
+- Young age, normal cholesterol, high heart rate → No Heart Disease
+- Higher age, chest pain, high cholesterol → Heart Disease detected
+
+**Parkinson’s Prediction**
+- Stable voice frequency with low jitter and shimmer → No Parkinson’s
+- High jitter, shimmer, and noise values → Parkinson’s detected
+
+The results obtained from the application were consistent with expected medical trends observed in the datasets.
+
+
+## 🚀 Future Improvements
+
+In the future, this project can be enhanced in a few simple ways to make it more useful and user-friendly.
+
+- Showing prediction probability along with the final result.
+- Adding basic validation to avoid unrealistic medical inputs.
+- Displaying model accuracy and performance details.
+- Improving the user interface with a cleaner layout and better explanations.
+- Extending the system to support more disease prediction models.
+
+## 👨‍💻 Author
+
+**Zafil Khan**  
+B.Tech (AI & ML)  
+GitHub: https://github.com/Zafilkhan
+
+## ⚠️ Disclaimer
+
+This project is created only for learning and educational purposes.  
+The predictions shown by the application should not be considered as professional medical advice.
+
