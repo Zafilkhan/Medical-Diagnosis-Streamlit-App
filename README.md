@@ -80,13 +80,13 @@ The complete project is:
 
 Medical-Diagnosis-Streamlit-App/
 │
-├── app.py
-├── diabetes_model.pkl
-├── diabetes_scaler.pkl
-├── heart_model.pkl
-├── parkinsons_model.pkl
-├── requirements.txt
-├── README.md
+- ├── app.py
+- ├── diabetes_model.pkl
+- ├── diabetes_scaler.pkl
+- ├── heart_model.pkl
+- ├── parkinsons_model.pkl
+- ├── requirements.txt
+- ├── README.md
 
 
 ---
