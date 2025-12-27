@@ -97,3 +97,7 @@ Medical-Diagnosis-Streamlit-App/
 ```bash
 git clone https://github.com/Zafilkhan/Medical-Diagnosis-Streamlit-App.git
 cd Medical-Diagnosis-Streamlit-App
+
+-  pip install -r requirements.txt
+-  streamlit run app.py
+  
