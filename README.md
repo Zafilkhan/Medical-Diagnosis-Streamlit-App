@@ -101,7 +101,7 @@ cd Medical-Diagnosis-Streamlit-App
 -  pip install -r requirements.txt
 -  streamlit run app.py
   
-
+---
 ## 🧪 Testing
 
 The application was tested manually using multiple realistic input scenarios to verify the correctness of predictions.
@@ -112,7 +112,7 @@ For each disease, test cases were selected to represent:
 - Borderline cases  
 
 This helped ensure that the model predictions behave logically and consistently across different input ranges.
-
+---
 ### Sample Test Cases
 
 **Diabetes Prediction**
